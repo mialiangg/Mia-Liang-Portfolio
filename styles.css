@@ -106,12 +106,12 @@
         }
     
         #cloud2 {
-            top: 5vh;
+            top: 0vh;
             left: 50vw;
         }
     
         #cloud3 {
-            top: 30vh;
+            top: 40vh;
             left: 0vw;
         }
     
@@ -168,12 +168,12 @@
         }
 
         #cloud3 {
-            top: 55vh;
+            top: 45vh;
             left: 5vw;
         }
 
         #cloud4 {
-            top: 60vh;
+            top: 55vh;
             left: 40vw;
         }
     }
@@ -287,12 +287,12 @@
         }
     
         #cloud2 {
-            top: 5vh;
+            top: 0vh;
             left: 50vw;
         }
     
         #cloud3 {
-            top: 30vh;
+            top: 40vh;
             left: 0vw;
         }
     
@@ -349,12 +349,12 @@
         }
 
         #cloud3 {
-            top: 55vh;
+            top: 45vh;
             left: 5vw;
         }
 
         #cloud4 {
-            top: 60vh;
+            top: 55vh;
             left: 40vw;
         }
     }
