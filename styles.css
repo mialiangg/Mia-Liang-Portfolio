@@ -1,0 +1,361 @@
+@media (prefers-color-scheme: dark){
+    #welcomePage {
+        background: rgb(114, 156, 253);
+        overflow: hidden;
+    }
+
+    #frontTitle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: source-serif-pro, serif;
+        font-weight: 900;
+        font-style: italic;
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+        text-align: center;
+        z-index: 100;
+    }
+
+    #behindTheScreens{
+        background: rgb(160, 0, 46);
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav {
+        list-style: none;
+        text-align: center;
+        display: none;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+    }
+
+    ul, a {
+        font-family: source-serif-pro, serif;
+        font-weight: 600;
+        font-style: italic;
+        color:  rgb(255, 191, 40);
+    }
+
+    a:visited {
+        color: white;
+        font-family: source-serif-pro, serif;
+        font-weight: 600;
+        font-style: italic;
+    }
+    
+    a:hover {
+        background-color: white;
+        font-family: source-serif-pro, serif;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    h1 {
+        color: black;
+        font-family: source-serif-pro, serif;
+        font-weight: 900;
+        font-style: italic;
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+        text-align: center;
+    }
+
+    p {
+        color: black;
+        font-family: source-serif-pro, serif;
+        font-weight: 400;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .cloud {
+        position: absolute;
+        transition: opacity 0.3s ease;
+    }
+
+    .stars {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 10px;
+    }
+
+    /* for DESKTOP */
+    @media (min-width: 768px){
+
+        .cloud{
+            width: 50vw;
+            height: 50vh;
+        }
+    
+        #cloud1 {
+            top: 5vh;
+            left: 5vw;
+        }
+    
+        #cloud2 {
+            top: 25vh;
+            left: 50vw;
+        }
+    
+        #cloud3 {
+            top: 50vh;
+            left: 0vw;
+        }
+    
+        #cloud4 {
+            top: 65vh;
+            left: 50vw;
+        }
+    }
+          
+    /* for TABLET */
+    @media (max-width: 768px) {
+        .cloud {
+            width: 40vw;
+            height: 40vh;
+        }
+
+        #cloud1 {
+            top: 5vh;
+            left: 5vw;
+        }
+
+        #cloud2 {
+            top: 30vh;
+            left: 50vw;
+        }
+
+        #cloud3 {
+            top: 60vh;
+            left: 10vw;
+        }
+
+        #cloud4 {
+            top: 80vh;
+            left: 50vw;
+        }
+    }
+
+    /* for PHONE */
+    @media (max-width: 480px) {
+        .cloud {
+            position: absolute;
+            width: 35vw;
+            height: 35vh;
+        }
+
+        #cloud1 {
+            top: 5vh;
+            left: 5vw;
+        }
+
+        #cloud2 {
+            top: 20vh;
+            left: 50vw;
+        }
+
+        #cloud3 {
+            top: 60vh;
+            left: 5vw;
+        }
+
+        #cloud4 {
+            top: 80vh;
+            left: 40vw;
+        }
+    }
+}
+
+@media (prefers-color-scheme: light){
+    #welcomePage {
+    background: rgb(114, 156, 253);
+    overflow: hidden;
+    }
+
+    #frontTitle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: source-serif-pro, serif;
+        font-weight: 900;
+        font-style: italic;
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+        text-align: center;
+        z-index: 100;
+    }
+
+    #behindTheScreens {
+        background: rgb(160, 0, 46);
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav {
+        list-style: none;
+        text-align: center;
+        display: none;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+    }
+
+    ul, a {
+        font-family: source-serif-pro, serif;
+        font-weight: 600;
+        font-style: italic;
+        color:  rgb(255, 191, 40);
+    }
+
+    a:visited {
+        color: white;
+        font-family: source-serif-pro, serif;
+        font-weight: 600;
+        font-style: italic;
+    }
+    
+    a:hover {
+        background-color: black;
+        font-family: source-serif-pro, serif;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    h1 {
+        color: black;
+        font-family: source-serif-pro, serif;
+        font-weight: 900;
+        font-style: italic;
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+        text-align: center;
+    }
+
+    p {
+        color: white;
+        font-family: source-serif-pro, serif;
+        font-weight: 400;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .cloud {
+        position: absolute;
+        transition: opacity 0.3s ease;
+    }
+
+    .stars {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 10px;
+    }
+
+    /* for DESKTOP */
+    @media (min-width: 768px) {
+
+        .cloud{
+            width: 50vw;
+            height: 50vh;
+        }
+    
+        #cloud1 {
+            top: 5vh;
+            left: 5vw;
+        }
+    
+        #cloud2 {
+            top: 25vh;
+            left: 50vw;
+        }
+    
+        #cloud3 {
+            top: 50vh;
+            left: 0vw;
+        }
+    
+        #cloud4 {
+            top: 65vh;
+            left: 50vw;
+        }
+    }
+          
+    /* for TABLET */
+    @media (max-width: 768px) {
+        .cloud {
+            width: 40vw;
+            height: 40vh;
+        }
+
+        #cloud1 {
+            top: 5vh;
+            left: 5vw;
+        }
+
+        #cloud2 {
+            top: 30vh;
+            left: 50vw;
+        }
+
+        #cloud3 {
+            top: 60vh;
+            left: 10vw;
+        }
+
+        #cloud4 {
+            top: 80vh;
+            left: 50vw;
+        }
+    }
+
+    /* for PHONE */
+    @media (max-width: 480px) {
+        .cloud {
+            position: absolute;
+            width: 35vw;
+            height: 35vh;
+        }
+
+        #cloud1 {
+            top: 5vh;
+            left: 5vw;
+        }
+
+        #cloud2 {
+            top: 20vh;
+            left: 50vw;
+        }
+
+        #cloud3 {
+            top: 60vh;
+            left: 5vw;
+        }
+
+        #cloud4 {
+            top: 80vh;
+            left: 40vw;
+        }
+    }
+}

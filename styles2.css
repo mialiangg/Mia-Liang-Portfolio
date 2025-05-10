@@ -1,0 +1,349 @@
+@media (prefers-color-scheme: dark){
+    #behindTheScreens{
+        background: rgb(172, 21, 18);
+    }
+
+    #inControl{
+        background: rgb(255, 0, 0);
+    }
+
+    #strawberries {
+        background: rgb(182, 20, 104);
+    }
+
+    #theBeginning {
+        background: rgb(189, 82, 155);
+    }
+
+    .overallGrid {
+        header{grid-area: header;}
+        .navigationContainer{grid-area: navigation;}
+        article{grid-area: article;}
+        .photoGrid{grid-area: photos;}
+        section{grid-area: section; text-align: center; margin-top: 20px; margin-bottom: 20px;}
+        display: grid;
+        grid-template-columns: repeat(1, fr);
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas:
+        "header"
+        "article"
+        "photos"
+        "section"
+        "navigation"
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav {
+        list-style: none;
+        text-align: center;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+    }
+
+    ul, a {
+        font-family: source-serif-pro, serif;
+        font-weight: 600;
+        font-style: italic;
+        color:  rgb(255, 191, 40);
+    }
+
+    a:visited {
+        color: white;
+        font-family: source-serif-pro, serif;
+        font-weight: 600;
+        font-style: italic;
+    }
+    
+    a:hover {
+        background-color: white;
+        font-family: source-serif-pro, serif;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    h1 {
+        color: black;
+        font-family: source-serif-pro, serif;
+        font-weight: 900;
+        font-style: italic;
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+        text-align: center;
+    }
+
+    p {
+        color: black;
+        font-family: source-serif-pro, serif;
+        font-weight: 400;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .photoGrid img {
+        width: 100%;
+        height: auto;
+    }
+    
+    button {
+        background-color: rgb(144, 0, 77);
+        border-radius: 20px;
+        color: black;
+        font-family: source-serif-pro, serif;
+        font-weight: 600;
+        font-style: italic;
+        padding: 20px;
+        cursor: pointer;
+
+    }
+
+    button:hover {
+        background-color: rgb(255, 170, 0);
+    }
+
+    .buttonContainer {
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .stars {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 10px;
+    }
+
+    /* for DESKTOP */
+    @media (min-width: 768px){
+
+        .photoGrid{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, auto);
+            gap: 10px;
+            padding: 5px;
+            grid-template-areas:
+            "a b c"
+            "d e f"
+        }
+    }
+          
+    /* for TABLET */
+    @media (max-width: 768px) {
+        .photoGrid{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 10px;
+            padding: 5px;
+            grid-template-areas:
+            "a b"
+            "c d"
+            "e f"
+        }
+    }
+
+    /* for PHONE */
+    @media (max-width: 480px) {
+        .photoGrid{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(6, 1fr);
+            gap: 10px;
+            padding: 5px;
+            grid-template-areas:
+            "a"
+            "b"
+            "c"
+            "d"
+            "e"
+            "f"
+        }
+    }
+}
+
+@media (prefers-color-scheme: light){
+  #behindTheScreens{
+        background: rgb(172, 21, 18);
+    }
+
+    #inControl{
+        background: rgb(255, 0, 0);
+    }
+
+    #strawberries {
+        background: rgb(182, 20, 104);
+    }
+
+    #theBeginning {
+        background: rgb(189, 82, 155);
+    }
+
+    .overallGrid {
+        header{grid-area: header;}
+        .navigationContainer{grid-area: navigation;}
+        article{grid-area: article;}
+        .photoGrid{grid-area: photos;}
+        section{grid-area: section; text-align: center; margin-top: 20px; margin-bottom: 20px;}
+        display: grid;
+        grid-template-columns: repeat(1, fr);
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas:
+        "header"
+        "article"
+        "photos"
+        "section"
+        "navigation"
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav {
+        list-style: none;
+        text-align: center;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+    }
+
+    ul, a {
+        font-family: source-serif-pro, serif;
+        font-weight: 600;
+        font-style: italic;
+        color:  rgb(255, 191, 40);
+    }
+
+    a:visited {
+        color: black;
+        font-family: source-serif-pro, serif;
+        font-weight: 600;
+        font-style: italic;
+    }
+    
+    a:hover {
+        background-color: black;
+        font-family: source-serif-pro, serif;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    h1 {
+        color: white;
+        font-family: source-serif-pro, serif;
+        font-weight: 900;
+        font-style: italic;
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+        text-align: center;
+    }
+
+    p {
+        color: white;
+        font-family: source-serif-pro, serif;
+        font-weight: 400;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .photoGrid img {
+        width: 100%;
+        height: auto;
+    }
+    
+    button {
+        background-color: rgb(144, 0, 77);
+        border-radius: 20px;
+        color: white;
+        font-family: source-serif-pro, serif;
+        font-weight: 600;
+        font-style: italic;
+        padding: 20px;
+        cursor: pointer;
+
+    }
+
+    button:hover {
+        background-color: rgb(255, 170, 0);
+    }
+
+    .buttonContainer {
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .stars {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 10px;
+    }
+
+    /* for DESKTOP */
+    @media (min-width: 768px){
+
+        .photoGrid{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, auto);
+            gap: 10px;
+            padding: 5px;
+            grid-template-areas:
+            "a b c"
+            "d e f"
+        }
+    }
+          
+    /* for TABLET */
+    @media (max-width: 768px) {
+        .photoGrid{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 10px;
+            padding: 5px;
+            grid-template-areas:
+            "a b"
+            "c d"
+            "e f"
+        }
+    }
+
+    /* for PHONE */
+    @media (max-width: 480px) {
+        .photoGrid{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(6, 1fr);
+            gap: 10px;
+            padding: 5px;
+            grid-template-areas:
+            "a"
+            "b"
+            "c"
+            "d"
+            "e"
+            "f"
+        }
+    }
+}
