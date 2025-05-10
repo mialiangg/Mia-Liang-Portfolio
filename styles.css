@@ -102,11 +102,11 @@
     
         #cloud1 {
             top: 0vh;
-            left: 5vw;
+            left: 0vw;
         }
     
         #cloud2 {
-            top: 10vh;
+            top: 5vh;
             left: 50vw;
         }
     
@@ -283,11 +283,11 @@
     
         #cloud1 {
             top: 0vh;
-            left: 5vw;
+            left: 0vw;
         }
     
         #cloud2 {
-            top: 10vh;
+            top: 5vh;
             left: 50vw;
         }
     
